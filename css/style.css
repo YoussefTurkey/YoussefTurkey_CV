@@ -418,6 +418,9 @@ body.scale_cv{
 .experience__data{
     gap: 0.5rem;
 }
+#second_job{
+    padding-top: 15px;
+}
 .education__title,
 .experience__title{
     font-size: var(--h3-font-size);
