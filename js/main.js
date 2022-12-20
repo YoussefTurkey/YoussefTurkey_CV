@@ -97,7 +97,7 @@ let resumeButton = document.getElementById('resume_button');
 
 let opt={
     margin: 0,
-    filename: 'Turkey-Resume.pdf',
+    filename: 'Youssef-Turkey-CV.pdf',
     image: {type: 'jpeg', quality: 0.98},
     html2canvas: {scale: 4},
     jsPDF: {format: 'a4', orientation: 'portrait'}
@@ -112,3 +112,8 @@ resumeButton.addEventListener('click', ()=>{
     generateResume();
     setTimeout(removeScale, 3000);
 })
+
+//  =============== Generate PDF For Mobile Screen (using jQuery lib) ==================
+$('#download_mob').click(function(){
+    window.print();
+});

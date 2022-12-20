@@ -582,3 +582,16 @@ body.scale_cv{
         display: inline-block;
     }
 }
+
+
+    /* ======= Print Screen ======= */
+@media print{
+    header,
+    .down_btn,
+    #theme_button{
+        display: none;
+    }
+    .bd_grid {
+        justify-items: center;
+    }
+}
