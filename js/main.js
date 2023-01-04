@@ -94,6 +94,7 @@ function removeScale(){
 // =============== Generate PDF ==================
 let areaCV = document.getElementById('area_cv');
 let resumeButton = document.getElementById('resume_button');
+let resumebuttonSmall = document.getElementById('resume_button_small');
 
 let opt={
     margin: 0,
@@ -111,4 +112,12 @@ resumeButton.addEventListener('click', ()=>{
     scaleCV();
     generateResume();
     setTimeout(removeScale, 3000);
+})
+
+resumebuttonSmall.addEventListener('click', (e)=>{
+    e.preventDefault();
+    scaleCV();
+    generateResume();
+    setTimeout(removeScale, 3000);
+    console.log('Thank You For Download My CV')
 })
