@@ -98,7 +98,7 @@ let resumebuttonSmall = document.getElementById('resume_button_small');
 
 let opt={
     margin: 0,
-    filename: 'Turkey-Resume.pdf',
+    filename: 'Youssef-Turkey-CV.pdf',
     image: {type: 'jpeg', quality: 0.98},
     html2canvas: {scale: 4},
     jsPDF: {format: 'a4', orientation: 'portrait'}
@@ -114,10 +114,7 @@ resumeButton.addEventListener('click', ()=>{
     setTimeout(removeScale, 3000);
 })
 
-resumebuttonSmall.addEventListener('click', (e)=>{
-    e.preventDefault();
-    scaleCV();
-    generateResume();
-    setTimeout(removeScale, 3000);
-    console.log('Thank You For Download My CV')
-})
+//  =============== Generate PDF For Mobile Screen (using jQuery lib) ==================
+$('#download_mob').click(function(){
+    window.print();
+});
