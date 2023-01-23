@@ -94,7 +94,6 @@ function removeScale(){
 // =============== Generate PDF ==================
 let areaCV = document.getElementById('area_cv');
 let resumeButton = document.getElementById('resume_button');
-let resumebuttonSmall = document.getElementById('resume_button_small');
 
 let opt={
     margin: 0,

@@ -522,15 +522,6 @@ body.scale_cv{
 }
 
 
-    /* ======= Media Queries ======= */
-@media screen and (max-width: 320px) {
-    .nav__list{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem 0.5rem;
-    }
-}
-
-
     /* ======= Class Modified for Large Screen Size ======= */
 @media screen and (min-width: 968px) {
     body{
