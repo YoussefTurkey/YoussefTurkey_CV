@@ -434,7 +434,14 @@ body.scale_cv{
     font-size: var(--smaller-font-size);
 }
 
-
+    /* ======= Academic Project ======= */
+.projects .project h3,
+.projects .project p{
+    display: inline;
+}
+.projects .project #grade{
+    display: block;
+}
     /* ======= Skills and Languages ======= */
 .skills__content,
 .languages__content{

@@ -94,6 +94,7 @@ function removeScale(){
 // =============== Generate PDF ==================
 let areaCV = document.getElementById('area_cv');
 let resumeButton = document.getElementById('resume_button');
+let resumeButtonSmall = document.getElementById('download_mob');
 
 let opt={
     margin: 0,
@@ -114,6 +115,7 @@ resumeButton.addEventListener('click', ()=>{
 })
 
 //  =============== Generate PDF For Mobile Screen (using jQuery lib) ==================
-$('#download_mob').click(function(){
+resumeButtonSmall.addEventListener('click', function(){
     window.print();
-});
+    console.log('printed')
+})
