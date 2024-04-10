@@ -472,6 +472,11 @@ body.scale_cv{
 
 
     /* ======= References ======= */
+.data_ref{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
 .references__content{
     gap: 0.25rem;
 }
