@@ -128,30 +128,36 @@ body.scale_cv{
 }
 .scale_cv .education__container,
 .scale_cv .experience__container,
-.scale_cv .certificate__container{
+.scale_cv .certificate__container,
+.scale_cv .tech__container{
     gap: 1rem;
 }
 .scale_cv .education__time,
-.scale_cv .experience__time{
+.scale_cv .experience__time,
+.scale_cv .tech__time{
     padding-right: 0.5rem;
 }
 .scale_cv .education__rounder,
-.scale_cv .experience__rounder{
+.scale_cv .experience__rounder,
+.scale_cv .tech__rounder{
     width: 11px;
     height: 11px;
     margin-top: 0.22rem;
 }
 .scale_cv .education__line,
-.scale_cv .experience__line{
+.scale_cv .experience__line,
+.scale_cv .tech__line{
     width: 1px;
     height: 80%;
     transform: translate(5px, 0);
 }
 .scale_cv .education__data,
-.scale_cv .experience__data{
+.scale_cv .experience__data,
+.scale_cv .tech__data{
     gap: 0.25rem;
 }
-.scale_cv .skills__name{
+.scale_cv .skills__name,
+.scale_cv .tech__name{
     margin-bottom: var(--mb-1);
 }
 .scale_cv .interests__container{
@@ -383,15 +389,18 @@ body.scale_cv{
 
     /* ======= Education and Experience ======= */
 .education__content,
-.experience__content{
+.experience__content,
+.tech__content{
     display: flex;
 }
 .education__time,
-.experience__time{
+.experience__time,
+.tech__time{
     padding-right: 1rem;
 }
 .education__rounder,
-.experience__rounder{
+.experience__rounder,
+.tech__rounder{
     position: relative;
     display: block;
     width: 16px;
@@ -400,7 +409,8 @@ body.scale_cv{
     border-radius: 50%;
     margin-top: 0.25rem;
 }
-.education__line{
+.education__line,
+.tech__line{
     display: block;
     width: 2px;
     height: 70%;
@@ -415,14 +425,16 @@ body.scale_cv{
     transform: translate(7px, 0);
 }
 .education__data,
-.experience__data{
+.experience__data,
+.tech__data{
     gap: 0.5rem;
 }
 #second_job{
     padding-top: 15px;
 }
 .education__title,
-.experience__title{
+.experience__title,
+.tech__title{
     font-size: var(--h3-font-size);
 }
 .education__studies,
@@ -448,7 +460,8 @@ body.scale_cv{
     grid-template-columns: repeat(2, 1fr);
 }
 .skills__name,
-.languages__name{
+.languages__name,
+.tech__name{
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-3);
